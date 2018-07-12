@@ -15,6 +15,7 @@
 		31E92AE220F78211002884FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E92AE120F78211002884FE /* main.m */; };
 		31E92AEC20F78211002884FE /* gitignoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E92AEB20F78211002884FE /* gitignoreTests.m */; };
 		31E92AF720F78211002884FE /* gitignoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E92AF620F78211002884FE /* gitignoreUITests.m */; };
+		31E92B0620F78660002884FE /* IgonreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E92B0520F78660002884FE /* IgonreViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		31E92AF220F78211002884FE /* gitignoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitignoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E92AF620F78211002884FE /* gitignoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitignoreUITests.m; sourceTree = "<group>"; };
 		31E92AF820F78211002884FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E92B0420F78660002884FE /* IgonreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IgonreViewController.h; sourceTree = "<group>"; };
+		31E92B0520F78660002884FE /* IgonreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IgonreViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				31E92AD220F7820E002884FE /* AppDelegate.h */,
 				31E92AD320F7820E002884FE /* AppDelegate.m */,
 				31E92AD520F7820E002884FE /* ViewController.h */,
+				31E92B0420F78660002884FE /* IgonreViewController.h */,
+				31E92B0520F78660002884FE /* IgonreViewController.m */,
 				31E92AD620F7820E002884FE /* ViewController.m */,
 				31E92AD820F7820E002884FE /* Main.storyboard */,
 				31E92ADB20F78211002884FE /* Assets.xcassets */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E92B0620F78660002884FE /* IgonreViewController.m in Sources */,
 				31E92AD720F7820E002884FE /* ViewController.m in Sources */,
 				31E92AE220F78211002884FE /* main.m in Sources */,
 				31E92AD420F7820E002884FE /* AppDelegate.m in Sources */,
